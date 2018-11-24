@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+\usepackage[catalan]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage[a4paper,total={6.2in,9.3in}]{geometry}
+\usepackage{pdflscape}
+% Formatting options
+\usepackage[bf,sf]{titlesec} % Make the section titles bold and sans-serif
+\usepackage[font={footnotesize, sf}, labelfont=bf]{caption} % Format dels peus de figura
+\renewcommand{\arraystretch}{1.7}
+\usepackage{amsmath,amssymb}
+\usepackage{amsmath}
+
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\yestag}{\refstepcounter{equation}\tag{\theequation}}
+
+\title{\sffamily {\bfseries EDIM I:} Informe calefacció}
+\author{\sffamily Raquel García Bellés, Miquel Saucedo Cuesta}
+\date{}
+
+\begin{document}
+	
+\maketitle
+\section*{Introducció}
+\begin{equation}\label{principal}
+	T'=q(t)-k(T-T_e(t)),\quad T(0)=T_0
+\end{equation}
+\section*{Supòsits}
+\begin{equation}\label{te}
+	T_e(t)=\frac{T_{max}+T_{min}}{2}+\frac{T_{max}-T_{min}}{2}\sin\left(\omega t+\pi\right)
+\end{equation}
+\section*{Models}
+	\subsection{Model 1}
+	\subsection{Model 2}
+	En aquest model considerem una $q(t)$ que depén de com estigui variant la temperatura de la casa, segons:
+	\begin{equation}\label{model2_1}
+		q(t)=\alpha T'(t)
+	\end{equation}
+	on $\alpha$ és una constant. Observem que introduïnt \eqref{model2_1} en \eqref{principal} obtenim:
+	\begin{equation}
+		T'=-\frac{k}{1-\alpha}(T-T_e(t))
+	\end{equation}
+	aleshores si anomenem $k'=k/(1-\alpha)$, aquest model és equivalent a poder canviar la constant $k$.
+	El gasto energètic d'aquest model en un periòde de $24$h vindrà donat per:
+	\begin{equation}
+		\int_{0}^{24}\alpha T'dt=\alpha\Delta T
+	\end{equation}
+\section*{Conclusions}
+\section*{Annex}
+\end{document}
