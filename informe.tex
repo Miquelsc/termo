@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 
 \usepackage[catalan]{babel}
 \usepackage[utf8]{inputenc}
@@ -28,16 +28,35 @@
 \begin{document}
 	
 \maketitle
-\section*{Introducció}
+\section*{Introducció i supòsits}
+Se'ns demana pensar diversos models pel funcionament del temporitzador de la calefacció d'un habitatge. Així doncs, caldrà tenir en compte factors com l'horari de les persones que hi viuen, el rang de temperatures que es considera "agradable", i la despesa energètica. \\
+
+ 
+
+L'evolució temporal de la temperatura vindrà donada per l'equació diferencial:
 \begin{equation}\label{principal}
-	T'=q(t)-k(T-T_e(t)),\quad T(0)=T_0
+	T'=q(t)-k(T-T_e(t)),\quad T(t_0)=T_0
 \end{equation}
-\section*{Supòsits}
-\begin{equation}\label{te}
-	T_e(t)=\frac{T_{max}+T_{min}}{2}+\frac{T_{max}-T_{min}}{2}\sin\left(\omega t+\pi\right)
+on $T$ és la temperatura a l'interior, $T_e(t)$ és la temperatura exterior, $q(t)$ és la funció que quantifica l'acció de la calefacció, i $k$ és una constant que mesura el ritme al qual s'intercanvia calor amb l'exterior, i que depèn, entre d'altres coses, de característiques de l'habitatge com la geometria i l'aïllament tèrmic. Aquesta constant pot determinar-se empíricament si es disposa dels valors de la temperatura exterior i interior de l'habitatge per a diferents temps. En el nostre model prendrem $k=0.1$, ja que fent assajos amb $q(t)=0$, aquest valor ens donava un ritme raonable\footnote{Amb la $T_e(t)$ definida en l'equació \eqref{te}, de les $23:00$h a les $24:00$h la temperatura baixa aproximadament $1$ºC.} d'intercanvi de calor.\\
+
+Considerarem la temperatura de l'habitatge en el transcurs d'un dia. En aquesta escala temporal, és una bona aproximació suposar que la temperatura exterior varia seguint una funció sinusoidal segons:
+ \begin{equation}\label{te}
+T_e(t)=\frac{T_{max}+T_{min}}{2}+\frac{T_{max}-T_{min}}{2}\sin\left(\omega t+\pi\right)
 \end{equation}
+Amb $T_{max}=15$ºC, $T_{min}=5$ºC i $\omega=2\pi/24$. Hem escollit aquestes temperatures per a simular la temperatura d'un dia d'hivern en una ciutat com Barcelona \cite{df}. El desfasament de $\pi$ s'ha introduït per tal que a les $6:00$h de la matinada es doni la temperatura mínima.\\
+
+En cada model proposarem una $q(t)$, i valorarem la seua eficiència segons una estimació de la despesa energètica, $E$, que calcularem mitjançant:\\
+\begin{equation}
+	E=\int^{t_0+24}_{t_0} q(t)dt
+\end{equation}
+
+Suposarem que l'horari en el qual hi ha gent a l'interior és de $17:00$h fins a $9:00$h del dia següent, de manera que en les hores restants, hem fixat $q(t)=0$ en tots els models per tal d'estalviar energia. També suposarem que els valors óptims de temperatura per als habitants están entre $22$ i $23$ºC.\\
 \section*{Models}
-	\subsection{Model 1}
+	\subsection{Model 1: Termòstat}
+	Aquest model pretén imitar el funcionament d'un termòstat, de manera que quan la temperatura baixa de $23$ºC s'activa 
+	\subsubsection*{Model 1.1}
+	\subsubsection*{Model 1.2}
+	Aquest model és una variació de l'anterior, en el qual 
 	\subsection{Model 2}
 	En aquest model considerem una $q(t)$ que depén de com estigui variant la temperatura de la casa, segons:
 	\begin{equation}\label{model2_1}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  24 NOV 2018 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.24)  25 NOV 2018 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 32 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -656,12 +656,12 @@ e
 * \topmargin=-40.09573pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -700,11 +700,11 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 30.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 30.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 30.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <6> on input line 30.
 LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -715,38 +715,71 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 32.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 32.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 32.
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./informe.aux) ) 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 37.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 40.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+
+LaTeX Warning: Citation `df' on page 1 undefined on input line 46.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./informe.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5336 strings out of 494318
- 74512 string characters out of 6163236
- 144524 words of memory out of 5000000
- 8546 multiletter control sequences out of 15000+600000
- 57453 words of font info for 57 fonts, out of 8000000 for 9000
+ 5363 strings out of 494318
+ 74829 string characters out of 6163236
+ 147525 words of memory out of 5000000
+ 8563 multiletter control sequences out of 15000+600000
+ 69386 words of font info for 61 fonts, out of 8000000 for 9000
  376 hyphenation exceptions out of 8191
- 38i,6n,38p,269b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/font
-s/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
-}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy8.pfb>
-Output written on informe.pdf (1 page, 127098 bytes).
+ 38i,8n,38p,801b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on informe.pdf (2 pages, 205418 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
