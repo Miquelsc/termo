@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.24)  26 NOV 2018 02:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.24)  26 NOV 2018 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,15 +645,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(74.71704pt, 448.07378pt, 74.71706pt)
-* v-part:(T,H,B)=(69.17426pt, 672.1112pt, 103.76138pt)
+* h-part:(L,W,R)=(67.49016pt, 462.52756pt, 67.49016pt)
+* v-part:(T,H,B)=(63.39273pt, 686.56499pt, 95.08913pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=448.07378pt
-* \textheight=672.1112pt
-* \oddsidemargin=2.44705pt
-* \evensidemargin=2.44705pt
-* \topmargin=-40.09573pt
+* \textwidth=462.52756pt
+* \textheight=686.56499pt
+* \oddsidemargin=-4.77983pt
+* \evensidemargin=-4.77983pt
+* \topmargin=-45.87726pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -850,7 +850,7 @@ Package epstopdf Info: Source file: <model41.eps>
 (epstopdf)                    size: 14663 bytes
 (epstopdf)             Command: <repstopdf --outfile=model41-eps-converted-to.p
 df model41.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -860,7 +860,7 @@ clusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: model41-eps-converted-to.pdf Graphic file (type pdf)
 
 <use model41-eps-converted-to.pdf>
-Package pdftex.def Info: model41-eps-converted-to.pdf used on input line 184.
+Package pdftex.def Info: model41-eps-converted-to.pdf used on input line 189.
 (pdftex.def)             Requested size: 369.88582pt x 175.91788pt.
 
 
@@ -874,7 +874,7 @@ Package epstopdf Info: Source file: <despesa.eps>
 (epstopdf)                    size: 18263 bytes
 (epstopdf)             Command: <repstopdf --outfile=despesa-eps-converted-to.p
 df despesa.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -884,7 +884,7 @@ clusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: despesa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use despesa-eps-converted-to.pdf>
-Package pdftex.def Info: despesa-eps-converted-to.pdf used on input line 190.
+Package pdftex.def Info: despesa-eps-converted-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 369.88582pt x 296.0539pt.
 Package epstopdf Info: Source file: <model42.eps>
 (epstopdf)                    date: 2018-11-25 23:32:06
@@ -894,7 +894,7 @@ Package epstopdf Info: Source file: <model42.eps>
 (epstopdf)                    size: 15983 bytes
 (epstopdf)             Command: <repstopdf --outfile=model42-eps-converted-to.p
 df model42.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -904,34 +904,33 @@ clusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: model42-eps-converted-to.pdf Graphic file (type pdf)
 
 <use model42-eps-converted-to.pdf>
-Package pdftex.def Info: model42-eps-converted-to.pdf used on input line 194.
+Package pdftex.def Info: model42-eps-converted-to.pdf used on input line 199.
 (pdftex.def)             Requested size: 369.88582pt x 256.80423pt.
+ [5]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <./model3-eps-converted-to.pdf> <./model41-eps-converted-to.pdf>]
-[7 <./despesa-eps-converted-to.pdf> <./model42-eps-converted-to.pdf>]
-(./informe.aux)
+[6 <./model3-eps-converted-to.pdf> <./model41-eps-converted-to.pdf>] [7 <./desp
+esa-eps-converted-to.pdf> <./model42-eps-converted-to.pdf>] (./informe.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5418 strings out of 494318
- 76056 string characters out of 6163236
- 149591 words of memory out of 5000000
- 8608 multiletter control sequences out of 15000+600000
+ 5421 strings out of 494318
+ 76081 string characters out of 6163236
+ 150620 words of memory out of 5000000
+ 8611 multiletter control sequences out of 15000+600000
  77702 words of font info for 64 fonts, out of 8000000 for 9000
  376 hyphenation exceptions out of 8191
- 38i,16n,39p,1025b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+ 38i,16n,39p,1000b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/font
 s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb><
@@ -941,11 +940,12 @@ public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
 mss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on informe.pdf (7 pages, 350782 bytes).
+/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on informe.pdf (7 pages, 354491 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 425 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
