@@ -1,0 +1,31 @@
+from __future__ import division, print_function
+
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+import time
+import os
+
+current_milli_time = lambda: int(round(time.time() * 1000))
+
+k = 5.12665			  	# Factor d'unitats (  eV^(-1/2)*nm^(-1)  )
+hbar = 6.582e-4			# h barra (eV · ps)
+
+L = 60.0				   	# Mitja longitud de la caixa (nm)#amb aquestes dades peta entre 26 i 27 #0.9e-6eV
+xi =-L/2			   	# Posicio inicial del paquet (nm)
+l = 1				   	# Mitja amplada de la barrera (nm) ho he posat a 0 per un truquis
+sigmax = 6			# Incertesa inicial del paquet (nm)
+
+T = 1.5				   	# Energia cinetica (eV)
+V0 = 0.5				# Barrera de potencial (eV)
+
+Nx = 1024				# Numero de particions en x
+dx = 2 * L / Nx 	   	# Pas en x
+N1, N2, N3 = int((L - l) / dx), int(2 * l/ dx), int((L - l) / dx) # Numero de particions abans, dins i despres de la barrera o del pou
+
+dt = 0.0005			   	# Pas de temps (ps)
+Nt = 300
+# Numero de passos de temps
+
+N = 2*128				# Numero d'estats propis que utilitzarem
+dE = (math.pi/(2*k*L))**2/20		  		# Precisio en energies (eV)
